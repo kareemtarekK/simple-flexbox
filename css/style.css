@@ -1,0 +1,71 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+:root{
+    --maincolor:lightblue
+}
+.page{
+    width: 800px;
+    height: 70vh;
+    background-color: #EEE;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-content: flex-start;
+}
+.page .header{
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    height: 65px;
+    padding: 10px;
+}
+.page .header .logo{
+    width: 40px;
+    background-color: var(--maincolor,yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page .header .links{
+    width: 700px ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--maincolor,yellow);
+}
+.page .header .links li{
+    list-style-type: none;
+    padding: 10px;
+}
+.page .main-area{
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    height:70%;
+    padding: 10px;
+}
+.page .main-area .content{
+    width: 500px;
+    padding: 10px;
+    background-color: var(--maincolor,yellow);
+}
+.page .main-area .sidebar{
+    width: 235px;
+    padding: 10px;
+    background-color: var(--maincolor,yellow);
+}
+.page .footer{
+    width: 750px;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 15px;
+    background-color: var(--maincolor,yellow);
+    margin: 13px;
+}
+
